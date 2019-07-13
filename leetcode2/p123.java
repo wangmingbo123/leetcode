@@ -1,6 +1,5 @@
 package leetcode2;
 
-import org.junit.Test;
 
 /**
  * Created by wy on 2017/6/16.
@@ -22,7 +21,6 @@ public class p123 {
 
         return secondSell; // secondSell will be the max profit after passing the prices
     }
-    @Test
     public void test(){
            int a[]={2,1,2,0,1};
            my(a);

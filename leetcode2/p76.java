@@ -1,13 +1,11 @@
 package leetcode2;
 
-import org.junit.Test;
 
 /**
  * Created by wy on 2017/6/14.
  */
 public class p76 {
 
-    @Test
     public void test(){
            String s="ADOBECODEBANC";
            String t="ABC";

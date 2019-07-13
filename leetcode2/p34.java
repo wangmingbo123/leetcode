@@ -1,12 +1,10 @@
 package leetcode2;
 
-import org.junit.Test;
 
 /**
  * Created by wy on 2017/6/17.
  */
 public class p34 {
-    @Test
     public  void test(){
             int nums[]={5,7,7,8,8,10};
             searchRange(nums,8);

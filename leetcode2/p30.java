@@ -1,6 +1,5 @@
 package leetcode2;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,7 +11,6 @@ import java.util.Map;
  */
 public class p30 {
 
-      @Test
       public void test(){
 
              String s="lingmindraboofooowingdingbarrwingmonkeypoundcake";

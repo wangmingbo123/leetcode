@@ -1,6 +1,5 @@
 package leetcode2;
 
-import org.junit.Test;
 
 /**
  * Created by wy on 2017/6/14.
@@ -9,7 +8,6 @@ import org.junit.Test;
 
 
 public class p24 {
-    @Test
     public  void main() {
             ListNode listNode1=new ListNode(1);
             ListNode listNode2=new ListNode(2);
