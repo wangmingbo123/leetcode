@@ -32,7 +32,7 @@ public class gui {
         //合并有序数组
         int b[] = new int[j - i + 1];
         int m = 0;
-        while (true) {
+        while (jj > j || i > ii) {
             if (a[i] < a[jj]) {
                 b[m] = a[i];
                 m++;
@@ -42,8 +42,6 @@ public class gui {
                 jj++;
                 m++;
             }
-            if (jj > j || i > ii)
-                break;
 
         }
 
