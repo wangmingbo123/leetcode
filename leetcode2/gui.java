@@ -77,16 +77,17 @@ public class gui {
             j = Integer.parseInt(item.split(",")[1]);
 
 
-            if (i >= j)
+            if (i >= j) {
+
                 continue;
+            }
+
 
             int k = (i + j) / 2;
             stack.push(i + "," + k);
             stack.push((k + 1) + "," + j);
 
             int index = i;
-
-
             int ii = k;
             int jj = k + 1;
 
